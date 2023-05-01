@@ -1,0 +1,43 @@
+
+body{
+  background-color: #fdeadf;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Roboto';
+
+}
+.MuiCircularProgress-colorPrimary {
+    color: #70A5EA!important;
+}
+
+
+
+.error {
+  border: 1px solid red;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.error:focus {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.noerror{
+   border-top: none;
+  border-left: none;
+  border-right: none;
+}
+.noerror:focus {
+  outline: none;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.error-message {
+  color: red;
+}
